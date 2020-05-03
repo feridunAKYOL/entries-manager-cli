@@ -128,10 +128,12 @@ const entriesManager = (entries, command, key, value) => {
 // step 2: declare callback that uses main app function
 const readFileCb = (err, entriesString) => {
   // step 4: handle file system error, or execute main app function
-  if (_) { _ } else {
-    const parsedEntries = _;
-    _(_, _, _, _);
-  };
+  if (_) {
+    _
+  }
+
+  const parsedEntries = _;
+  _(_, _, _, _);
 };
 
 // step 3: read the stored data and execute the callback
